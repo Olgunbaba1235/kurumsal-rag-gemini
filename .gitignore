@@ -1,0 +1,14 @@
+# API anahtarı: asla GitHub'a gönderme
+.env
+
+# Yerel vektör veritabanı (PDF'ten yeniden üretilir)
+chroma_db/
+
+# Şirket belgeleri gizli olabilir; PDF'ler varsayılan olarak yüklenmez
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
